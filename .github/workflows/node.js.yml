@@ -9,11 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: Build
     defaults:
       run:
         working-directory: "app"
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -33,6 +32,16 @@ jobs:
       - name: Test
         run: npm test
 
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: "app"
+    permissions:
+      contents: write
+    steps:
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
