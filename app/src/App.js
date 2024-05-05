@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
   const [inputText, setInputText] = useState(''); // State to store input text
   const [stringList, setStringList] = useState([]); // State to store list of strings
-  const backgroundColor = "#282c34";
+  const backgroundColor = "brown";
 
   // Function to handle adding string to the list
   const handleAddString = () => {
