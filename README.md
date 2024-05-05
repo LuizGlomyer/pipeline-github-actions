@@ -1,5 +1,5 @@
 # pipeline-github-actions
 
-![example workflow](https://github.com/luizglomyer/pipeline-github-actions/actions/workflows/node.js.yml/badge.svg)
+![React Application Workflow](https://github.com/luizglomyer/pipeline-github-actions/actions/workflows/react-application.yml/badge.svg)
 
-![example workflow](https://github.com/luizglomyer/pipeline-github-actions/actions/workflows/github-actions-demo.yml/badge.svg)
+![Demo Workflow](https://github.com/luizglomyer/pipeline-github-actions/actions/workflows/github-actions-demo.yml/badge.svg)
