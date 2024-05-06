@@ -15,11 +15,11 @@ test('App header has background-color set as #282c34', () => {
 test('increments counter when button is clicked', () => {
   const { getByText } = render(<App />);
   const button = screen.getByText('Click me');
-  const counter = screen.getByText('You clicked 0 times.');
+  const counter = screen.getByText('You clicked 0 times');
 
   fireEvent.click(button);
 
-  expect(counter).toHaveTextContent('You clicked 1 times.');
+  expect(counter).toHaveTextContent('You clicked 1 times');
 });
 
 test('adds all inputted strings to list when button is clicked', () => {
