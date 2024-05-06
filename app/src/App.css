@@ -38,6 +38,12 @@
   }
 }
 
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: saddlebrown;
+}
+
 button {
   background-color: gainsboro;
 
@@ -60,6 +66,7 @@ a {
 
   p {
     margin: 0;
+    font-family: monospace;
   }
 
 }

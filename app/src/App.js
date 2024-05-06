@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
   const [inputText, setInputText] = useState(''); // State to store input text
   const [stringList, setStringList] = useState([]); // State to store list of strings
-  const backgroundColor = "brown";
+  const backgroundColor = "#282c34";
 
   // Function to handle adding string to the list
   const handleAddString = () => {
@@ -20,11 +20,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header" data-testid="app-header" style={{ backgroundColor }}>
+        <h1>Hello World</h1>
         <img src={logo} className="App-logo" alt="logo" />
 
         <div className='counter'>
           <p>
-            You clicked {count} times.
+            You clicked {count} times
           </p>
           <button onClick={() => setCount(count + 1)}>
             Click me
